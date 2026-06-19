@@ -1,0 +1,3 @@
+ValidationId,DetectionName,TechniqueId,DataSource,ExpectedEvidence,ObservedEvidence,FalsePositiveNotes,Status,Confidence,Owner
+VAL-001,Example authentication monitoring,T1110,Windows Security Log,"Repeated failed sign-in records grouped by account and source",,"User typing errors and expired passwords",Research,50,Detection Engineering
+VAL-002,Example new service review,T1543.003,Windows System Log,"Service installation record with path and account context",,"Approved software deployment tools",Research,50,Detection Engineering
